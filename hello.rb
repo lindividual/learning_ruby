@@ -9,5 +9,5 @@ get '/vue.html' do
 end
 
 get '/vue' do
-  html :vue
+  :vue.html
 end
