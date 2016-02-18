@@ -5,9 +5,8 @@ get '/' do
 end
 
 get '/vue.html' do
-  "Happy new year!"
 end
 
 get '/vue' do
-  :vue.html
+  send_file 'vue.html'
 end
