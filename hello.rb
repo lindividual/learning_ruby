@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World!"
+  send_file 'resume.html'
 end
 
 get '/vue.html' do
