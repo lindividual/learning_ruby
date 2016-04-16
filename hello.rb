@@ -1,12 +1,11 @@
 require 'sinatra'
 
 get '/' do
-  send_file 'resume.html'
+  "Hello World!"
 end
 
 get '/vue.html' do
 end
 
-get '/vue' do
-  send_file 'vue.html'
+get '/resume.html' do
 end
