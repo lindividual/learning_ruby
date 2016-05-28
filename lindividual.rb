@@ -8,6 +8,6 @@ get '/vue' do
   erb :vue
 end
 
-get '/resume.html' do
+get '/resume' do
   erb :resume
 end
