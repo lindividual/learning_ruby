@@ -1,2 +1,2 @@
-require './hello'
+require './lindividual'
 run Sinatra::Application
