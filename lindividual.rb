@@ -11,3 +11,7 @@ end
 get '/resume' do
   erb :resume
 end
+
+get '/index' do
+  erb :index
+end
